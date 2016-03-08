@@ -1,2 +1,2 @@
 # aJavaRPG
-A simple rpg
+A simple rpg made by me.
