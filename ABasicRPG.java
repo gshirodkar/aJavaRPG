@@ -76,24 +76,6 @@ public class ABasicRPG {
 
 	}
 
-	public static String dispStats(String charname, int hp, int strength){
-		String statname= new String(charname+ "\nHP= " +hp +"\nSTRENGTH= " + strength);
-		return statname;
-	}
-	public static boolean runAway(){
-		Random generator=new Random();
-		if (generator.nextInt(3)==1){
-			return true;
-		}
-		return false;}
-	public static int levelUp(int stat){
-		Random generator=new Random();
-		int statincrease=generator.nextInt(3);
-		int newstat=stat+statincrease;
-		return newstat;
-
-
-	}
 
 
 
